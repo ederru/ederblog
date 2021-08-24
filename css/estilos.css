@@ -7,9 +7,31 @@ body {
     padding: 0px;
 }
 
+.header{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 6px;
+    
+}
+
+.header__title {
+    color: white;
+    font-size: 24px;
+    text-align: left
+}
+
+.header__subtitle {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
 .container {
     width: 70%;
-    padding: 1cm;
+    padding: 2cm;
     text-align: left;
     border: 1px solid black;
     margin: 0 auto;
