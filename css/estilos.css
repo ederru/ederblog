@@ -9,24 +9,12 @@ body {
 
 .header{
     background-color: black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 6px;
-    
-}
+    margin-bottom: 20px;   
 
-.header__title {
-    color: white;
-    font-size: 24px;
-    text-align: left
 }
-
-.header__subtitle {
-    color: white;
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
+.header__logo {
+    width: 150px;
+    cursor: pointer; 
 }
 
 .container {
