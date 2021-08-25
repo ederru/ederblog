@@ -9,19 +9,21 @@ body {
 
 .header{
     background-color: black;
-    margin-bottom: 20px;   
-
+    position: fixed;
+    width: 100%;
 }
+
 .header__logo {
     width: 150px;
-    cursor: pointer; 
+    cursor: pointer;
+    display: flex;
+    margin: auto;
 }
 
 .container {
     width: 70%;
     padding: 2cm;
     text-align: left;
-    border: 1px solid black;
     margin: 0 auto;
 }
 
@@ -29,11 +31,17 @@ body {
     font-size: 20px;
 }
 
+.container p img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
 .footer {
     background-color: black;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    height: 100px;
+    display: flow-root;
 }
 
 .footer__menu {
@@ -61,3 +69,4 @@ body {
 .footer__text {
     color: white;
 }
+
