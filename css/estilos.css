@@ -40,3 +40,36 @@ body {
 .container__post h1{
     font-size: 20px;
 }
+
+.footer {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer__menu {
+    margin-right: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__menu li {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__menu li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footer__menu li a:hover {
+    text-decoration: underline;
+}
+
+.footer__text {
+    color: white;
+}
